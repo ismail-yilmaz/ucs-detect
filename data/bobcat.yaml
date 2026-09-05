@@ -1,12 +1,13 @@
 ambiguous_width: 1
-datetime: 2026-08-31 16:43:19 UTC
+datetime: 2026-09-05 21:49:04 UTC
 environment:
   COLORTERM: truecolor
   TERM: xterm-256color
-height: 77
+  TERM_PROGRAM: Bobcat
+height: 59
 preferred_encoding: UTF-8
-python_version: 3.14.4
-seconds_elapsed: 12.032208451997576
+python_version: 3.14.7
+seconds_elapsed: 15.329084055003477
 session_arguments:
   all: true
   limit_category_time: 0
@@ -17,11 +18,16 @@ session_arguments:
   stream: stderr
   timeout_cps: 1.0
 software_name: Bobcat
-software_version: 0.9.9 (r442)
+software_version: 0.9.9 (r443)
 system: Linux
 terminal_results:
-  cell_height: 23
-  cell_width: 10
+  background_color_hex: '#2d2d2d2d2d2d'
+  background_color_rgb:
+  - 11565
+  - 11565
+  - 11565
+  cell_height: 17
+  cell_width: 7
   color_scheme: false
   colored_underlines: false
   decrqcra: true
@@ -30,13 +36,13 @@ terminal_results:
     decsace: '2'
     decsca: '0'
     decscl: 64;1
-    decscpp: '288'
+    decscpp: '274'
     decscusr: '1'
-    decslpp: 77t
-    decslrm: 1;288
-    decsnls: '77'
-    decstbm: 1;77
-    sgr: '0'
+    decslpp: 59t
+    decslrm: 1;274
+    decsnls: '59'
+    decstbm: 1;59
+    sgr: 0;38:2::45:45:45
   decrqss_truecolor_probe: true
   device_attributes:
     extensions:
@@ -52,9 +58,15 @@ terminal_results:
     - 28
     - 444
     - 1337
-    raw: "\e[?64;1;6;8;9;15;17;21;22;28;4;444;1337c"
+    - 8100
+    raw: "\e[?64;1;6;8;9;15;17;21;22;28;4;444;1337;8100c"
     service_class: 64
-  height: 77
+  foreground_color_hex: '#ffffffffffff'
+  foreground_color_rgb:
+  - 65535
+  - 65535
+  - 65535
+  height: 59
   iterm2_features:
     features:
       ambiguous_wide: true
@@ -62,6 +74,7 @@ terminal_results:
       decscusr: 0
       decslrm: true
       focus_reporting: true
+      hyperlinks: true
       mouse: true
       notifications: true
       overline: true
@@ -143,18 +156,18 @@ terminal_results:
       value: 0
       value_description: NOT_RECOGNIZED
   number_of_colors: 16777216
-  osc52_clipboard: false
+  osc52_clipboard: true
   osc52_detection:
     da1_extension_52: false
-    xtgettcap_ms: false
-  pixels_height: 1771
-  pixels_width: 2880
-  screen_ratio: '16:10'
-  screen_ratio_name: WSXGA
+    xtgettcap_ms: true
+  pixels_height: 1003
+  pixels_width: 1918
+  screen_ratio: '16:9'
+  screen_ratio_name: HD
   sixel: true
   software_method: XTVERSION
   software_name: Bobcat
-  software_version: 0.9.9 (r442)
+  software_version: 0.9.9 (r443)
   styled_underlines: false
   tab_stop_width: 8
   text_sizing:
@@ -164,9 +177,10 @@ terminal_results:
     protocol: null
     supported: false
   ttype: xterm-256color
-  width: 288
+  width: 274
   xtgettcap:
     capabilities:
+      Ms: ''
       RGB: '8'
       Su: ''
       Sync: ''
@@ -273,7 +287,7 @@ terminal_results:
     supported: true
   xtgettcap-bad-screenleak: false
   xtversion-bad-screenleak: false
-  xtversion_raw: Bobcat 0.9.9 (r442)
+  xtversion_raw: Bobcat 0.9.9 (r443)
 test_results:
   emoji_vs15_results:
     9.0.0:
@@ -12394,4 +12408,4 @@ test_results:
       n_total: 43592
       pct_success: 99.97476601211231
 wcwidth_version: 0.8.3
-width: 288
+width: 274
